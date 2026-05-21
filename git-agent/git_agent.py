@@ -414,7 +414,7 @@ class ReadmeGeneratorAgent:
         subprocess.run(["rm", "-rf", temp_dir], capture_output=True)
         return "\n".join(structure)
 
-    class CommitMessageGeneratorAgent:
+class CommitMessageGeneratorAgent:
     """提交信息生成Agent：自动分析代码变更，生成符合规范的提交信息"""
     def __init__(self):
         self.prompt = ChatPromptTemplate.from_messages([
