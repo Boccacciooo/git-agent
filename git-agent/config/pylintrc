@@ -1,0 +1,17 @@
+[MASTER]
+disable=
+    C0114, # missing-module-docstring
+    C0115, # missing-class-docstring
+    C0116, # missing-function-docstring
+    C0301, # line-too-long
+    W0613, # unused-argument
+    W0703, # broad-except
+
+[FORMAT]
+max-line-length=120
+
+[MESSAGES CONTROL]
+enable=
+    E, # 错误
+    W, # 警告
+    F, # 致命错误
